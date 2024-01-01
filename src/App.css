@@ -6,6 +6,9 @@
   padding:30px;
 }
 
+.row{
+  padding: 10px;
+}
 
 .bg-body-tertiary {
   --bs-bg-opacity: 1;
@@ -243,6 +246,7 @@ opacity: 0.10;
   line-height: 24px; 
   word-wrap: break-word;
   padding: 30px;
+  text-align: left;
 }
 
 .SuccessRatedesc{
@@ -274,3 +278,176 @@ opacity: 0.10;
   padding: 22px;
   margin-bottom: 51px;
 }
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.gallery-item {
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.gallery-item img {
+  width: 100%;
+  height: 342px;
+  display: block;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, black 100%);
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  color: #fff;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.gallery-item:hover .overlay {
+  opacity: 1;
+}
+
+.headline {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.WhatSaysOurHappyClients{
+  color: white; 
+  font-size: 54px; 
+  font-family: Inter; 
+  font-weight: 600; 
+  line-height: 77.23px; 
+  word-wrap: break-word
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  /* background: #fff; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+ object-fit: cover;
+}
+
+.swiper {
+  width: 100%;
+  height: 300px;
+  margin: 20px auto;
+}
+.append-buttons {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.append-buttons button {
+  display: inline-block;
+  cursor: pointer;
+  border: 1px solid #007aff;
+  color: #007aff;
+  text-decoration: none;
+  padding: 4px 10px;
+  border-radius: 4px;
+  margin: 0 10px;
+  font-size: 13px;
+}
+
+.Ellipse10{
+  width: 26%;
+  height: 35%;
+  background: transparent;
+  border-radius: 9999px;
+  border: 1.4px rgba(25, 25, 25, 0.10) solid;
+  padding: 12px;
+  margin: 20px;
+
+}
+
+.CeoOfHunt{
+  color: white; 
+  font-size: 14px; 
+  font-family: Inter; 
+  font-weight: 400; 
+  line-height: 24px; 
+  word-wrap: break-word;
+  text-align: left;
+  padding: 10px;
+}
+
+.blogdewsc{
+  opacity: 0.30; 
+  color: white; 
+  font-size: 14px; 
+  font-family: Inter; 
+  font-weight: 500; 
+  line-height: 22.75px; 
+  word-wrap: break-word;
+  padding: 10px;
+  text-align: left;
+}
+
+.SuccessRate12{
+  color: white; 
+  font-size: 24px; 
+  font-family: Inter; 
+  font-weight: 600; 
+  line-height: 24px; 
+  word-wrap: break-word;
+  padding: 10px;
+  text-align: left;
+}
+
+.swiper-button-next{
+  display: none !important;
+}
+
+.swiper-button-prev{
+  display: none !important;
+}
+
+.Vectorleft{
+  width: 20.03px;
+  height: 19.65px;
+  padding: 29px;
+  border-radius: 33px;
+  margin-left: -12px;
+  border: unset;
+}
+
+.Vectorright{
+  width: 20.03px;
+  height: 19.65px;
+  padding: 29px;
+  border-radius: 33px;
+  margin-left: 24px;
+  border: unset;
+}
+
+.prev{
+  margin-top: -23px;
+  margin-left: -11px;
+}
+
