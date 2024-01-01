@@ -2,6 +2,10 @@
   background-color: #111111;
 }
 
+.container{
+  padding:30px;
+}
+
 
 .bg-body-tertiary {
   --bs-bg-opacity: 1;
@@ -53,22 +57,23 @@
 
 .bannerheadline{
   color: white;
-  font-size: 66px;
+  font-size: 60px;
   font-family: Inter;
   font-weight: 500;
-  line-height: 97.37px;
-  word-wrap: break-word
+  line-height: 75.37px;
+  word-wrap: break-word;
+  margin-top: 10px;
   
 }
 
 .pdesc{
-  color: white;
- font-size: 18px;
- font-family: Inter;
- font-weight: 500;
- line-height: 29.25px;
- word-wrap: break-word;
- padding-top: 50px;
+  color: #555353;
+  font-size: 18px;
+  font-family: Inter;
+  font-weight: 500;
+  line-height: 28.25px;
+  word-wrap: break-word;
+  padding-top: 18px;
 }
 
 .contact-form {
@@ -105,59 +110,167 @@ input {
 
 .search{
   
-  position: relative;
-  box-shadow: 0 0 40px rgb(51 51 51 / 10%);
-  width: 72%;
-  margin-left: 72px;
-  margin-top: 28px;
+position: relative;
+box-shadow: 0 0 40px rgb(51 51 51 / 10%);
+width: 72%;
+margin-left: 72px;
+margin-top: 28px;
 
-  }
+}
 
 .search input{
 
-  height: 55px;
-  text-indent: 25px;
-  border: 2px solid #d6d4d4;
-  width: 100%;
-  border-radius: 50px;
-  background-color: #858181;
-  opacity: 0.10;
+height: 55px;
+text-indent: 25px;
+border: 2px solid #d6d4d4;
+width: 100%;
+border-radius: 50px;
+background-color: #8581818f;
+opacity: 0.10;
 
 
 }
 
 
-  .search input:focus{
+.search input:focus{
 
-   box-shadow: none;
-   border: 2px solid blue;
+  box-shadow: none;
+  border: 2px solid blue;
 
 
-  }
+}
 
-  .search .fa-search{
+.search .fa-search{
 
-   position: absolute;
-   top: 20px;
-   left: 16px;
+  position: absolute;
+  top: 20px;
+  left: 16px;
 
-  }
+}
 
-  .search button{
+.search button{
 
-   position: absolute;
-   top: 5px;
-   right: 5px;
-   height: 50px;
-   width: 110px;
-    background: #ffca2b;
-    border-radius: 50px;
-    color: #000 !important;
-    border: unset !important;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  height: 50px;
+  width: 110px;
+  background: #ffca2b;
+  border-radius: 50px;
+  color: #000 !important;
+  border: unset !important;
 
-  }
+}
 
-  .search input::placeholder {
-    color: #fff;
-    padding-left: 20px;
-  }
+.search input::placeholder {
+  color: #fff;
+  padding-left: 20px;
+}
+
+.LetSIntroduceOurself{
+  color: white; 
+  font-size: 54px; 
+  font-family: Inter; 
+  font-weight: 600; 
+  line-height: 87.22px; 
+  word-wrap: break-word;
+  padding: 60px;
+}
+
+.CriminalLawyer{
+  text-align: center; 
+  color: white; 
+  font-size: 32px; 
+  font-family: Inter; 
+  font-weight: 600; 
+  line-height: 52.01px; 
+  word-wrap: break-word;
+  text-align: left;
+}
+
+.amidesc{
+  opacity: 0.30; 
+  color: white; 
+  font-size: 18px; 
+  font-family: Inter; 
+  font-weight: 500; 
+  line-height: 29.25px; 
+  word-wrap: break-word;
+  text-align: left;
+}
+
+.WhyChooseUs{
+  color: white; 
+  font-size: 54px; 
+  font-family: Inter; 
+  font-weight: 600; 
+  word-wrap: break-word;
+  text-align: center;
+  padding: 60px;
+}
+.Rectangle3646{
+  width: 100%; 
+  height: 100%; 
+  background: #1D1D1D; 
+  border-radius: 14px; 
+  border: 1.40px rgba(255, 255, 255, 0.10) solid;
+}
+
+.Rectangle364667{
+  width: 100%; 
+  height: 100%; 
+  background: #2E2E2E; 
+  border-radius: 14px; 
+  border: 1.40px rgba(255, 255, 255, 0.10) solid;
+}
+
+.Ellipse9{
+  width: 24%;
+  height: 22%;
+  background: white;
+  border-radius: 9999px;
+  border: 1.4px rgba(25, 25, 25, 0.10) solid;
+  padding: 21px;
+  margin: 30px;
+
+}
+
+.SuccessRate{
+  color: white; 
+  font-size: 24px; 
+  font-family: Inter; 
+  font-weight: 600; 
+  line-height: 24px; 
+  word-wrap: break-word;
+  padding: 30px;
+}
+
+.SuccessRatedesc{
+  opacity: 0.30; 
+  color: white; 
+  font-size: 14px; 
+  font-family: Inter; 
+  font-weight: 500; 
+  line-height: 22.75px; 
+  word-wrap: break-word;
+  padding: 30px;
+  padding-top: 0px;
+}
+.ReadMore{
+  color: black; 
+  font-size: 14px; 
+  font-family: Inter; 
+  font-weight: 600; 
+  line-height: 3.75px;
+  word-wrap: break-word
+}
+
+.Rectangle3649{
+  margin: 21px;
+  width: 29%;
+  height: 31px;
+  background: #E3B748;
+  border-radius: 23.5px;
+  padding: 22px;
+  margin-bottom: 51px;
+}
